@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 25px;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.filters input, .filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.lecturer-item {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.lecturer-item:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.lecturer-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
+    margin-right: 20px;
+    background-color: #e0e0e0; /* Warna latar jika gambar tidak ada */
+}
+
+.lecturer-info {
+    flex: 1;
+}
+
+.lecturer-info h3 {
+    margin: 0 0 5px 0;
+    color: #0056b3;
+}
+
+.lecturer-info p {
+    margin: 4px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.lecturer-info p strong {
+    color: #333;
+}
+
+.pagination-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination-container button:hover {
+    background-color: #0056b3;
+}
+
+.pagination-container button.active {
+    background-color: #0056b3;
+    font-weight: bold;
+}
+
+.pagination-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
