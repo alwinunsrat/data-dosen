@@ -1,26 +1,324 @@
 [
   {
-    "nama": "Dr. Budi Santoso, M.Kom.",
-    "nip": "198001012005011001",
-    "email": "budi.s@univ.ac.id",
-    "telepon": "081234567890",
-    "jabatan": "Lektor Kepala",
-    "keahlian": "Kecerdasan Buatan, Pemrosesan Bahasa Alami"
+    "Nama": "ADE YUSUPA, S.Pd.,M.Kom",
+    "NIP": 198603092019031008,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "MULTIMEDIA"
   },
   {
-    "nama": "Prof. Dr. Ir. Rini Wijayanti, S.T., M.T.",
-    "nip": "197505051999032001",
-    "email": "rini.w@univ.ac.id",
-    "telepon": "081298765432",
-    "jabatan": "Guru Besar",
-    "keahlian": "Jaringan Komputer, Keamanan Siber"
+    "Nama": "AGUSTINUS JACOBUS, ST, MCs",
+    "NIP": 197908042014041001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "DATA MANAGEMENT"
   },
   {
-    "nama": "Ahmad Subarjo, S.Kom., M.Cs.",
-    "nip": "198503152010121002",
-    "email": "ahmad.s@univ.ac.id",
-    "telepon": "081211223344",
-    "jabatan": "Lektor",
-    "keahlian": "Rekayasa Perangkat Lunak, Basis Data"
+    "Nama": "ALWIN MELKIE SAMBUL, S.T., M.Eng., Ph.D.",
+    "NIP": 197709292005011005,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "INFORMATIKA BIOMEDIS DAN TEKNOLOGI PENDIDIKAN"
+  },
+  {
+    "Nama": "BERNAD JUMADI DEHOTMAN SITOMPUL, S.Kom., M.Kom.",
+    "NIP": 198512132019031013,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "KECERDASAN BUATAN"
+  },
+  {
+    "Nama": "BRAVE ANGKASA SUGIARSO, ST.,MT",
+    "NIP": 197507292006041001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "GRAFIK DAN TEKNIK INTERAKTIF (GIT)"
+  },
+  {
+    "Nama": "DIRKO GUSTAAFIANO SETYADHARMAPUTRA RUINDUNGAN, S.T., M.Eng.",
+    "NIP": 198906242018031001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "TEKNOLOGI BASIS DATA"
+  },
+  {
+    "Nama": "Dr.Eng. SARY DIANE EKAWATI PATURUSI, ST., M.Eng",
+    "NIP": 197710042006042002,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "TEKNOLOGI MULTIMEDIA PEMBELAJARAN "
+  },
+  {
+    "Nama": "Dr.Eng. Ir. VECKY CANISIUS POEKOEL, ST. MT",
+    "NIP": 196705101997021001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "TEKNIK KENDALI"
+  },
+  {
+    "Nama": "Prof. Dr.Eng. MEITA RUMBAYAN, ST, M.Eng.",
+    "NIP": 197605192000032001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Guru Besar",
+    "Bidang Keahlian": "TEKNIK ENERGI TERBARUKAN"
+  },
+  {
+    "Nama": "Dr.Eng. STEVEN RAY SENTINUWO, ST., MTI.",
+    "NIP": 198007092005011002,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "PEMODELAN DAN SIMULASI KOMPUTER"
+  },
+  {
+    "Nama": "FEISY DIANE KAMBEY, ST, MT",
+    "NIP": 198201192006042004,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM PENGENDALIAN CERDAS"
+  },
+  {
+    "Nama": "FRANSISCA JOANET PONTOH, ST., MT",
+    "NIP": 198612142019032014,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "KECERDASAN BUATAN"
+  },
+  {
+    "Nama": "HARNI SEVEN ADINATA , S.Kom., M.Kom",
+    "NIP": 198807072019031013,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Tenaga Pengajar",
+    "Bidang Keahlian": "OPERATING SYSTEM"
+  },
+  {
+    "Nama": "HEILBERT ARMANDO MAPALY, S.Kom., M.Eng.",
+    "NIP": 199003272019031010,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "KEAMANAN SIBER"
+  },
+  {
+    "Nama": "HENRY VALENTINO FLORENSIUS KAINDE, S.T., M.T",
+    "NIP": 198905042019031018,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM MULTIMEDIA"
+  },
+  {
+    "Nama": "Ir. ABDUL HARIS JUNUS ONTOWIRJO, MT.",
+    "NIP": 196503271995121001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM KENDALI JARINGAN CERDAS"
+  },
+  {
+    "Nama": "Ir. ALICIA AMELIA ELIZABETH SINSUW, ST, MT, Ph.D",
+    "NIP": 196804031998022001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "TEKNIK ELEKTRO & INFORMATIKA "
+  },
+  {
+    "Nama": "Ir. ARIE SALMON MATIUS LUMENTA, ST., MT.",
+    "NIP": 197304172000031001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "ARSITEKTUR KOMPUTER"
+  },
+  {
+    "Nama": "Ir. ARTHUR MOURITS RUMAGIT, ST, MT, PhD",
+    "NIP": 198105262005011002,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "ARSITEKTUR DAN ORGANISASI KOMPUTER, BIOMEDICAL ENGINEERING"
+  },
+  {
+    "Nama": "Ir. BENEFIT SEMUEL NARASIANG , MT",
+    "NIP": 196610161997021001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "ELEKTRONIKA DIGITAL "
+  },
+  {
+    "Nama": "Ir. DANIEL FEBRIAN SENGKEY, S.T., M.Eng.",
+    "NIP": 199002232018031001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "MACHINE LEARNING FOR DRUG DISCOVERY"
+  },
+  {
+    "Nama": "Ir. DRINGHUZEN JEKKE MAMAHIT, ST.,MEng",
+    "NIP": 197611212003122001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "RAKAYASA PERANGKAT LUNAK UNTUK SISTEM ELEKTRONIKA"
+  },
+  {
+    "Nama": "Ir. MEICSY ELDAD ISRAEL NAJOAN, ST., MT.",
+    "NIP": 196705271995121001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor Kepala",
+    "Bidang Keahlian": "ARSITEKTUR KOMPUTER"
+  },
+  {
+    "Nama": "Ir. PINROLINVIC DUADELFRI KURNIALIMKI MANEMBU, ST., MT.",
+    "NIP": 198002282012121002,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM IOT CERDAS"
+  },
+  {
+    "Nama": "Ir. PUJO HARI SAPUTRO, S.Kom.,M.T.",
+    "NIP": 199007202022031004,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "IT GOVERNANCE"
+  },
+  {
+    "Nama": "Ir. SHERWIN REINALDO UNSRATDIANTO SOMPIE, ST,, MT",
+    "NIP": 197910252002121001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "TEKNOLOGI KECERDASAN BUATAN (AI) DALAM ELEKTRONIKA"
+  },
+  {
+    "Nama": "Ir. SUMENGE TANGKAWAROUW GODION KAUNANG, MT., PhD",
+    "NIP": 196510141994031003,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor Kepala",
+    "Bidang Keahlian": "TEKNOLOGI PENDIDIKAN"
+  },
+  {
+    "Nama": "Ir. WAHYUNI FITHRATUL ZALMI, S.Kom.,M.Kom",
+    "NIP": 199409122022032016,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "JARINGAN SYARAF TIRUAN"
+  },
+  {
+    "Nama": "Ir. XAVERIUS B.N. NAJOAN, ST. MT",
+    "NIP": 197711202010121002,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "KEAMANAN SIBER"
+  },
+  {
+    "Nama": "Ir. YAULIE DEO Y RINDENGAN, ST.,MSc.,MM",
+    "NIP": 197501282002121002,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM PENDUKUNG KEPUTUSAN"
+  },
+  {
+    "Nama": "JIMMY REAGEN ROBOT, ST., MTI",
+    "NIP": 198012092008011004,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "IOT DAN GRAFIKA KOMPUTER"
+  },
+  {
+    "Nama": "KENNETH YOSUA PALILINGAN, S.T., M.T",
+    "NIP": 199212052019031012,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "REKAYASA PERANGKAT LUNAK"
+  },
+  {
+    "Nama": "MUHAMAD DWISNANTO PUTRO, ST, M.Eng, Ph.D",
+    "NIP": 198803142012121001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor Kepala",
+    "Bidang Keahlian": "VISI CERDAS"
+  },
+  {
+    "Nama": "NANCY JEANE TUTUROONG, ST, MKom",
+    "NIP": 197501122008122001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "SISTEM MULTIMEDIA"
+  },
+  {
+    "Nama": "OKTAVIAN ABRAHAM LANTANG, ST., MTI., Ph.D",
+    "NIP": 198010042005011001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM BASIS DATA"
+  },
+  {
+    "Nama": "REINHARD KOMANSILAN, S.Kom., M.Kom",
+    "NIP": 199005222020121002,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "SISTEM INFORMASI"
+  },
+  {
+    "Nama": "RENDY SYAHPUTRA, S.Kom, M.Kom",
+    "NIP": 199205252022031010,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "INTERNET OF THINGS (IOT)"
+  },
+  {
+    "Nama": "RIZAL SENGKEY , ST., MT",
+    "NIP": 196501121998031001,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "BASIS DATA"
+  },
+  {
+    "Nama": "SALAKI REYNALDO JOSHUA, S.Pd., M.Sc",
+    "NIP": 199410022019031009,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "SISTEM CERDAS"
+  },
+  {
+    "Nama": "SALVIUS PAULUS LENGKONG, S.Pd., M.Eng",
+    "NIP": 199206262019031021,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "SISTEM PENDUKUNG KEPUTUSAN"
+  },
+  {
+    "Nama": "VICTOR TARIGAN, S.Kom, M.Kom",
+    "NIP": 198910242022031003,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "DATA MINING"
+  },
+  {
+    "Nama": "VIRGINIA TULENAN, S.Kom, MTI.",
+    "NIP": 198409062010122007,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "INTERAKSI MANUSIA DAN KOMPUTER"
+  },
+  {
+    "Nama": "YURI VANLI AKAY, S.Pd., M.T",
+    "NIP": 199105242019031014,
+    "Status Homebase": "Homebase",
+    "Jabatan Akademik": "Asisten Ahli",
+    "Bidang Keahlian": "SISTEM KOMPUTER"
+  },
+  {
+    "Nama": "Prof. Dr. Ir. FABIAN JOHANES MANOPPO, M.Agr.",
+    "NIP": 196210141992031001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Guru Besar",
+    "Bidang Keahlian": "GEOTEKNIK "
+  },
+  {
+    "Nama": "Prof. Dr. TRINA EKAWATI TALLEI, M.Si.",
+    "NIP": 196605081995122001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Guru Besar",
+    "Bidang Keahlian": "BIOINFORMATICS; COMPUTER-AIDED DRUG DISCOVERY"
+  },
+  {
+    "Nama": "Dr.Eng. MARKUS KARAMOY UMBOH, ST, MT.",
+    "NIP": 197505181999031001,
+    "Status Homebase": "Non-Homebase",
+    "Jabatan Akademik": "Lektor",
+    "Bidang Keahlian": "TEKNIK MESIN, REKAYASA MATERIAL"
   }
 ]

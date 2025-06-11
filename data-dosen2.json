@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Dr. Budi Santoso, M.Kom.",
+    "nip": "198001012005011001",
+    "email": "budi.s@univ.ac.id",
+    "telepon": "081234567890",
+    "jabatan": "Lektor Kepala",
+    "keahlian": "Kecerdasan Buatan, Pemrosesan Bahasa Alami"
+  },
+  {
+    "nama": "Prof. Dr. Ir. Rini Wijayanti, S.T., M.T.",
+    "nip": "197505051999032001",
+    "email": "rini.w@univ.ac.id",
+    "telepon": "081298765432",
+    "jabatan": "Guru Besar",
+    "keahlian": "Jaringan Komputer, Keamanan Siber"
+  },
+  {
+    "nama": "Ahmad Subarjo, S.Kom., M.Cs.",
+    "nip": "198503152010121002",
+    "email": "ahmad.s@univ.ac.id",
+    "telepon": "081211223344",
+    "jabatan": "Lektor",
+    "keahlian": "Rekayasa Perangkat Lunak, Basis Data"
+  }
+]
