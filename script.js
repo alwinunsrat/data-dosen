@@ -3,10 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const lecturerListContainer = document.getElementById('lecturer-list');
     const paginationContainer = document.getElementById('pagination');
     const searchInput = document.getElementById('searchInput');
+    const statusFilter = document.getElementById('statusFilter'); // DITAMBAHKAN
     const jabatanFilter = document.getElementById('jabatanFilter');
     const keahlianFilter = document.getElementById('keahlianFilter');
 
-    let allLecturers = []; // Akan diisi dari file JSON
+    let allLecturers = [];
     let filteredLecturers = [];
     let currentPage = 1;
     const itemsPerPage = 10;
@@ -20,18 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const data = await response.json();
             
-            // Proses data: ubah string 'keahlian' menjadi array
             allLecturers = data.map(dosen => ({
                 ...dosen,
-                keahlian: dosen.keahlian.split(',').map(k => k.trim())
+                keahlian: Array.isArray(dosen.keahlian) ? dosen.keahlian : dosen.keahlian.split(',').map(k => k.trim())
             }));
 
-            // Setelah data dimuat, inisialisasi aplikasi
             initializeApp();
 
         } catch (error) {
             console.error("Gagal memuat data dosen:", error);
-            lecturerListContainer.innerHTML = "<p>Gagal memuat data. Periksa file `data-dosen.json` dan pastikan formatnya benar.</p>";
+            lecturerListContainer.innerHTML = "<p>Gagal memuat data. Periksa file `data-dosen.json` dan pastikan formatnya benar. Pastikan juga Anda menjalankan aplikasi melalui server lokal.</p>";
         }
     }
 
@@ -41,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         addEventListeners();
     }
 
+    // FUNGSI INI DIUBAH UNTUK MENYESUAIKAN TAMPILAN
     function displayLecturers(lecturers, page) {
         lecturerListContainer.innerHTML = "";
         const start = (page - 1) * itemsPerPage;
@@ -58,14 +58,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const lecturerItem = document.createElement('div');
             lecturerItem.className = 'lecturer-item';
+            // Hapus Email & Telepon, tambahkan Status
             lecturerItem.innerHTML = `
                 <img src="${photoPath}" class="lecturer-photo" onerror="this.onerror=null;this.src='${defaultIconPath}';">
                 <div class="lecturer-info">
                     <h3>${dosen.nama}</h3>
                     <p><strong>NIP:</strong> ${dosen.nip}</p>
+                    <p><strong>Status:</strong> ${dosen.status}</p>
                     <p><strong>Jabatan:</strong> ${dosen.jabatan}</p>
-                    <p><strong>Email:</strong> ${dosen.email}</p>
-                    <p><strong>Telepon:</strong> ${dosen.telepon}</p>
                     <p><strong>Bidang Keahlian:</strong> ${dosen.keahlian.join(', ')}</p>
                 </div>
             `;
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        keahlianFilter.innerHTML = '<option value="">Semua Bidang Keahlian</option>'; // Reset
+        keahlianFilter.innerHTML = '<option value="">Semua Bidang Keahlian</option>';
         allKeahlian.forEach(keahlian => {
             const option = document.createElement('option');
             option.value = keahlian;
@@ -113,31 +113,36 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // FUNGSI INI DIUBAH UNTUK MENAMBAHKAN LOGIKA FILTER STATUS
     function applyFilters() {
         const searchTerm = searchInput.value.toLowerCase();
+        const status = statusFilter.value; // DITAMBAHKAN
         const jabatan = jabatanFilter.value;
         const keahlian = keahlianFilter.value;
 
         filteredLecturers = allLecturers.filter(dosen => {
             const nameMatch = dosen.nama.toLowerCase().includes(searchTerm);
             const nipMatch = dosen.nip.includes(searchTerm);
+            const statusMatch = status === "" || dosen.status === status; // DITAMBAHKAN
             const jabatanMatch = jabatan === "" || dosen.jabatan === jabatan;
             const keahlianMatch = keahlian === "" || dosen.keahlian.includes(keahlian);
 
-            return (nameMatch || nipMatch) && jabatanMatch && keahlianMatch;
+            // Kondisi filter diperbarui
+            return (nameMatch || nipMatch) && statusMatch && jabatanMatch && keahlianMatch;
         });
 
         currentPage = 1;
         displayLecturers(filteredLecturers, currentPage);
         setupPagination(filteredLecturers);
     }
-
+    
+    // FUNGSI INI DIUBAH UNTUK MENAMBAHKAN EVENT LISTENER PADA FILTER STATUS
     function addEventListeners() {
         searchInput.addEventListener('input', applyFilters);
+        statusFilter.addEventListener('change', applyFilters); // DITAMBAHKAN
         jabatanFilter.addEventListener('change', applyFilters);
         keahlianFilter.addEventListener('change', applyFilters);
     }
     
-    // --- Mulai aplikasi dengan memuat data ---
     loadData();
 });
