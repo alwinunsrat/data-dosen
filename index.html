@@ -1,23 +1,49 @@
-<div class="filters">
-    <input type="text" id="searchInput" placeholder="Cari nama atau NIP...">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Dosen Teknik Informatika</title>
     
-    <select id="statusFilter">
-        <option value="">Semua Status</option>
-        <option value="Dosen Tetap">Dosen Tetap</option>
-        <option value="Dosen Luar Biasa">Dosen Luar Biasa</option>
-        <option value="Dosen Kontrak">Dosen Kontrak</option>
-    </select>
-    
-    <select id="jabatanFilter">
-        <option value="">Semua Jabatan</option>
-        <option value="Tenaga Pengajar">Tenaga Pengajar</option>
-        <option value="Asisten Ahli">Asisten Ahli</option>
-        <option value="Lektor">Lektor</option>
-        <option value="Lektor Kepala">Lektor Kepala</option>
-        <option value="Guru Besar">Guru Besar</option>
-    </select>
-    
-    <select id="keahlianFilter">
-        <option value="">Semua Bidang Keahlian</option>
-        </select>
-</div>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Daftar Dosen S-1 Teknik Informatika</h1>
+
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="Cari nama atau NIP...">
+            
+            <select id="statusFilter">
+                <option value="">Semua Status</option>
+                <option value="Dosen Tetap">Dosen Tetap</option>
+                <option value="Dosen Luar Biasa">Dosen Luar Biasa</option>
+                <option value="Dosen Kontrak">Dosen Kontrak</option>
+            </select>
+            
+            <select id="jabatanFilter">
+                <option value="">Semua Jabatan</option>
+                <option value="Tenaga Pengajar">Tenaga Pengajar</option>
+                <option value="Asisten Ahli">Asisten Ahli</option>
+                <option value="Lektor">Lektor</option>
+                <option value="Lektor Kepala">Lektor Kepala</option>
+                <option value="Guru Besar">Guru Besar</option>
+            </select>
+            
+            <select id="keahlianFilter">
+                <option value="">Semua Bidang Keahlian</option>
+                </select>
+        </div>
+
+        <div id="lecturer-list" class="lecturer-container">
+            <p>Memuat data dosen...</p>
+        </div>
+
+        <div id="pagination" class="pagination-container">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
